@@ -10,7 +10,7 @@ class Course
     {
        //Course object
        Course courseRef=new Course();
-       courseRef.courseId=200;
+       courseRef.courseId=1234;
        courseRef.courseName="Java Full Stack";
        courseRef.courseDuration=100;
        System.out.println("Course Id: "+courseRef.courseId);
