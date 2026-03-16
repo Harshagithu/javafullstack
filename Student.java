@@ -14,9 +14,14 @@ class Student
        studentRef.name="HarshaVardhan";
        studentRef.age=22;
        studentRef.course="Java Full Stack";
-       System.out.println("Roll No: "+studentRef.rollNo);
-       System.out.println("Name: "+studentRef.name);
-       System.out.println("Age: "+studentRef.age);
-       System.out.println("course: "+studentRef.course);
+       studentRef.display();
+    }
+
+    public void display()
+    {
+       System.out.println("Roll No: "+rollNo);
+       System.out.println("Name: "+name);
+       System.out.println("Age: "+age);
+       System.out.println("course: "+course);
     }
 }
