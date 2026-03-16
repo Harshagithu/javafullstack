@@ -4,7 +4,7 @@ class Course
    // instance variables;
    int courseId;
    String courseName;
-	int courseDuration;
+   int courseDuration;
 
     public static void main(String args[])
     {
